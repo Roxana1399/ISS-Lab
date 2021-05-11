@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #ffe4e1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <children>
+      <Button layoutX="23.0" layoutY="106.0" mnemonicParsing="false" onAction="#pressVizualizare" text="Vizualizare Locuri Disponibile" textFill="#15bd1b">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="106.0" layoutY="26.0" text="Client" textFill="#15aa49">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="76.0" layoutY="170.0" mnemonicParsing="false" onAction="#pressRezervare" text="Rezervare Noua" textFill="#4bc517">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="72.0" layoutY="235.0" mnemonicParsing="false" onAction="#pressIsporicView" text="Istoric Rezervari" textFill="#2817aa">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="67.0" layoutY="298.0" mnemonicParsing="false" onAction="#pressAnulare" text="Anulare Rezervare">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="numeLogatClient" layoutX="213.0" layoutY="5.0" prefHeight="18.0" prefWidth="89.0" />
+   </children>
+</AnchorPane>

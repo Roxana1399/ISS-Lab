@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="487.0" prefWidth="384.0" style="-fx-background-color: #ffe4c4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <children>
+      <Button fx:id="vizualizare_spectacol" layoutX="61.0" layoutY="79.0" mnemonicParsing="false" onAction="#pressVizualizareSp" prefHeight="54.0" prefWidth="204.0" style="-fx-background-color: #d3d3d3;" text="Vizualizare Spectacole" textAlignment="CENTER" textFill="#1c492c">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect></Button>
+      <Button fx:id="adauga_spectacol" layoutX="61.0" layoutY="149.0" mnemonicParsing="false" onAction="#adaugaSpectacol" prefHeight="54.0" prefWidth="204.0" style="-fx-background-color: #d3d3d3;" text="Adauga Spectacol" textFill="#1ab74e">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="sterge_spectacol" layoutX="61.0" layoutY="216.0" mnemonicParsing="false" onAction="#stergeSpectacol" prefHeight="54.0" prefWidth="204.0" style="-fx-background-color: #d3d3d3;" text="Sterge Specatcol" textFill="#c71919">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="modifica_spectacol" layoutX="61.0" layoutY="284.0" mnemonicParsing="false" onAction="#modificaSpectacol" prefHeight="54.0" prefWidth="204.0" style="-fx-background-color: #d3d3d3;" text="Modifica Spectacol" textFill="#947126">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="creare_cont" layoutX="61.0" layoutY="349.0" mnemonicParsing="false" onAction="#cont" prefHeight="54.0" prefWidth="204.0" style="-fx-background-color: #d3d3d3;" text="Creare cont Client" textAlignment="CENTER" textFill="#3c337f">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="S_RESIZE" />
+   </cursor>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

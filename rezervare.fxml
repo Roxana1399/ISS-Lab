@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #f0fff0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <children>
+      <Label layoutX="45.0" layoutY="119.0" text="Spectacol" />
+      <Label layoutX="11.0" layoutY="167.0" text="Numar loc /locuri" />
+      <TextField fx:id="locuri" layoutX="111.0" layoutY="162.0" prefHeight="26.0" prefWidth="59.0" />
+      <Label fx:id="error1" layoutX="15.0" layoutY="222.0" prefHeight="18.0" prefWidth="272.0" textFill="#15d756">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button layoutX="100.0" layoutY="301.0" mnemonicParsing="false" onAction="#pressRezerva" prefHeight="50.0" prefWidth="100.0" text="Rezerva" />
+      <Label layoutX="85.0" layoutY="52.0" text="Rezervare Noua">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numeSpec" layoutX="104.0" layoutY="115.0" />
+   </children>
+</AnchorPane>

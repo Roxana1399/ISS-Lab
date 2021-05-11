@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #90ee90;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <children>
+      <Label layoutX="65.0" layoutY="43.0" prefHeight="30.0" prefWidth="190.0" text="Adaugare Spectacol">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="115.0" text="Nume" />
+      <Label layoutX="39.0" layoutY="157.0" text="Data" />
+      <TextField fx:id="nume" layoutX="101.0" layoutY="111.0" />
+      <Label layoutX="39.0" layoutY="200.0" text="Ora" />
+      <Label layoutX="39.0" layoutY="239.0" text="Pret Rand" />
+      <Label layoutX="39.0" layoutY="274.0" text="Pret Loja" />
+      <TextField fx:id="ora" layoutX="101.0" layoutY="196.0" />
+      <TextField fx:id="pre_r" layoutX="101.0" layoutY="235.0" />
+      <TextField fx:id="pret_l" layoutX="101.0" layoutY="270.0" />
+      <Button layoutX="124.0" layoutY="332.0" mnemonicParsing="false" onAction="#pressadauga" text="Adauga" textFill="#25823b" />
+      <TextField fx:id="data" layoutX="101.0" layoutY="153.0" />
+      <Label fx:id="error3" layoutX="37.0" layoutY="303.0" prefHeight="18.0" prefWidth="215.0" textAlignment="CENTER" textFill="#2143a6">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

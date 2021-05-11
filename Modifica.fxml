@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="421.0" prefWidth="300.0" style="-fx-background-color: #f0e68c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <children>
+      <Label layoutX="85.0" layoutY="14.0" prefHeight="30.0" prefWidth="174.0" text="Modifica Spectacol">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="55.0" text="ID" />
+      <Label layoutX="25.0" layoutY="104.0" text="Data" />
+      <TextField fx:id="numesp" layoutX="94.0" layoutY="51.0" style="-fx-background-color: #fffacd;" />
+      <Label layoutX="27.0" layoutY="171.0" text="Ora" />
+      <Label layoutX="21.0" layoutY="238.0" text="Pret Rand" />
+      <Label layoutX="20.0" layoutY="316.0" text="Pret Loja" />
+      <TextField fx:id="oram" layoutX="94.0" layoutY="167.0" />
+      <TextField fx:id="pretrm" layoutX="94.0" layoutY="234.0" />
+      <TextField fx:id="pretlm" layoutX="94.0" layoutY="312.0" />
+      <Button layoutX="195.0" layoutY="135.0" mnemonicParsing="false" onAction="#pressModificaData" text="Modifica Data" textFill="#826424" />
+      <Button layoutX="198.0" layoutY="200.0" mnemonicParsing="false" onAction="#pressModificaOra" text="Modifica Ora" />
+      <Button layoutX="165.0" layoutY="266.0" mnemonicParsing="false" onAction="#pressModificaPretr" text="Modifica Pret Rand" textFill="#826424" />
+      <Button layoutX="168.0" layoutY="347.0" mnemonicParsing="false" onAction="#pressModificaPretl" text="Modifica Pret Loja" textFill="#826424" />
+      <TextField fx:id="datam" layoutX="91.0" layoutY="100.0" />
+      <Label fx:id="error5" layoutX="19.0" layoutY="381.0" prefHeight="18.0" prefWidth="262.0" textFill="#209a43">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

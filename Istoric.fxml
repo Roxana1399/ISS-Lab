@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="402.0" prefWidth="537.0" style="-fx-background-color: #f5fffa;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerClient">
+   <children>
+      <TableView fx:id="locuriTeatru" layoutX="3.0" layoutY="84.0" prefHeight="318.0" prefWidth="528.0">
+        <columns>
+            <TableColumn fx:id="id11" prefWidth="56.79998779296875" text="Id" />
+            <TableColumn fx:id="nume11" prefWidth="111.59997415542603" text="Spectacol" />
+          <TableColumn fx:id="data1" prefWidth="96.40003204345703" text="Data" />
+          <TableColumn fx:id="ora1" minWidth="0.0" prefWidth="49.0" text="Ora" />
+            <TableColumn fx:id="loc_libere" prefWidth="45.79998779296875" text="Loc_o" />
+            <TableColumn fx:id="loc_ocupate" prefWidth="57.0" text="Loc_l" />
+            <TableColumn fx:id="pret_l1" prefWidth="49.0" text="Pret_l" />
+            <TableColumn fx:id="pret_r1" prefWidth="56.79998779296875" text="Pret_r" />
+        </columns>
+      </TableView>
+      <Label layoutX="137.0" layoutY="37.0" prefHeight="38.0" prefWidth="203.0" text="Istoric Rezervari" textFill="#3fcf2f">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
